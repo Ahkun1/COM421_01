@@ -1,6 +1,12 @@
+element.style {
+	float: right;
+	margin: 0 px 10 px 10 px 0px;
+	width: 45%;
+}
+
 body {
+	width: 850px;
 	background-color: lightblue;
-	width: 720px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -36,8 +42,8 @@ img {
 section.photo_gallery {
   max-width: 200px;
 	position: absolute;
-  top: 209px;
-  margin-left: 745px;
+  top: 226px;
+  margin-left: 900px;
   min-width: 200px;
 }
 
