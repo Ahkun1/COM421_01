@@ -1,0 +1,116 @@
+body {
+background-color: white;
+}
+
+
+div#page {
+width: 520px;
+height: 100vh;
+padding-left: 20px;
+margin-left: auto;
+margin-right: auto;
+background-color: #ffffff;
+}
+
+
+/*Text*/
+
+h1 {
+	position: absolute;
+  margin-top: -15px;
+	z-index: 4;
+	font-family: "Permanent Marker";
+	font-size: 6em;
+}
+
+h1::first-letter {
+	font-size: 1.7em; /*If you want a "drop cap," you can use this pseudo class. Just remember that text size is inherited.*/
+}
+
+/*Boxes*/
+
+div.box_light {
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 110px;
+	height: 75px;
+	width: 440px;
+	z-index: 3;
+	background-color: #d397ea;
+}
+
+div.box_dark {
+	position: absolute;
+  margin-left: 20px;
+  margin-top: 120px;
+  height: 75px;
+  width: 440px;
+	z-index: 2;
+	background-color: #b05dd1;
+}
+
+/* Grid class styles adapted from Lea Verou @ css3pie.com/demos/gradient-patterns */
+/* Note how unessential components are commented out, but not deleted. I may need them for something else later. */
+/* Also note how line color is controlled using RGBA. We haven't seen that in class before, but it's a nice way to control the transparency of an object in CSS. */
+
+div.grid {
+	position:absolute;
+	margin-top: 50px;
+	width: 500px;
+	height: 100px;
+	border-top: solid rgba(255,255,255,.3) 1px;
+	border-left: solid rgba(255,255,255,.3) 1px;
+	z-index: 1;
+	background-color: transparent;
+	background-size: 500px 100px, 500px 100px, 20px 20px, 20px 20px;
+	background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+	/*background-image: -webkit-linear-gradient(white 2px, transparent 2px),
+										-webkit-linear-gradient(0, white 2px, transparent 2px),
+										-webkit-linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+										-webkit-linear-gradient(0, rgba(255,255,255,.3) 1px, transparent 1px);
+	background-image: -moz-linear-gradient(white 2px, transparent 2px),
+										-moz-linear-gradient(0, white 2px, transparent 2px),
+										-moz-linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+										-moz-linear-gradient(0, rgba(255,255,255,.3) 1px, transparent 1px);*/
+	background-image: linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+										linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px),
+										linear-gradient(rgba(0,0,0,.3) 1px, transparent 1px), /*uses RGBA: Red, Blue, Green, Alpha (transparency)*/
+										linear-gradient(90deg, rgba(0,0,0,.3) 1px, transparent 1px);
+	/*-pie-background: linear-gradient(white 2px, transparent 2px) -2px -2px / 100px,
+									 linear-gradient(90deg, white 2px, transparent 2px) -2px -2px / 100px,
+									 linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px) -1px -1px / 20px,
+									 linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px) -1px -1px / 20px,
+									 #269;
+	behavior: url(/pie/PIE.htc);*/
+	}
+
+	
+/*Lines*/
+
+div.line1 {
+	position: absolute;
+	width: 900px;
+	height: 10px;
+	background: linear-gradient(45deg,#a385af, #91e4f9);
+	margin-left: 0px;
+	margin-top: 410px;
+	transform: rotate(73deg);
+	z-index: 0;
+}
+
+div.line2 {
+	position: absolute;
+	width: 900px;
+	height: 20px;
+	background: linear-gradient(45deg, #a385af, #91e4f9);
+	margin-left: -80px;
+	margin-top: 500px;
+	transform: rotate(-15deg);
+	z-index: 0;
+}
+
+
+
+
+	
+	
