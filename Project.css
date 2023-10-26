@@ -1,0 +1,32 @@
+element{
+    
+    background-color: greenyellow;
+}
+
+body{
+    background-color: lightblue;
+}
+
+h1{
+    font-weight: 575;
+    overflow-y: 100px;
+    text-align: center;
+}
+
+p {
+    text-align: match-parent;
+    font-weight: 400;
+    font-size: medium;
+
+}
+
+#rectangle{
+    width:500 px;
+    height:400 px;
+    background: lightgreen;
+}
+
+#Navigation_Tools {
+    position: relative
+
+}
