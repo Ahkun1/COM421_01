@@ -1,0 +1,9 @@
+Excel
+-Send me either your .xlsx file or copy and paste your chart to a Word/Powerpoint file.
+-Once in one of those files, right click and download as a .png or .jpeg file.
+
+Google Sheets
+-Click on your chart and click the options menu (top right, three dots)
+-Select download and send it as a .png or .pdf file.
+
+Submit your file to the Dropbox exercise link.
