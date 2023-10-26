@@ -20,7 +20,13 @@ p {
 
 }
 
-.Navigation_Tools {
+#rectangle{
+    width:500 px;
+    height:400 px;
+    background: lightgreen;
+}
+
+#Navigation_Tools {
     position: relative
 
 }
