@@ -1,5 +1,4 @@
 element{
-    
     background-color: greenyellow;
 }
 
@@ -23,11 +22,12 @@ p {
 #rectangle{
     width:500 px;
     height:400 px;
-    background: lightgreen;
+    background-color: white;
 }
 
 #Navigation_Tools {
-    position: relative
+    position: absolute
+
 
 }
 
