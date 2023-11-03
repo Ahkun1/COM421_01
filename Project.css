@@ -1,9 +1,11 @@
 element{
-    background-color: greenyellow;
+    background-color: lightseagreen;
 }
 
 body{
-    background-color: lightblue;
+    background-color: white;
+    border: 5 px solid #333333;
+
 }
 
 h1{
@@ -25,18 +27,17 @@ p {
     background-color: white;
 }
 
-#Navigation_Tools {
+.Navigation_Tools.ul {
     position: absolute
-
-
+    
 }
 
 aside {
-    width: 40%;
-    padding-left: 0.5rem;
+    width: 30%;
+    padding-right: 0.5rem;
     margin-left: 0.5rem;
     float: right;
-    box-shadow: inset 5px 0 5px -5px #29627e;
+    box-shadow: inset 5px 0 5px -5px #d7effc;
     font-style: italic;
-    color: #29627e;
+    color: #4d4d4d;
   }
