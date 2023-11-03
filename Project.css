@@ -1,10 +1,12 @@
+
 element{
     background-color: lightseagreen;
 }
 
 body{
-    background-color: white;
-    border: 5 px solid #333333;
+    background-color: rgb(204, 204, 204);
+    border-color: rgb(47, 47, 47);
+    border-top-right-radius: 4%;
 
 }
 
@@ -27,9 +29,13 @@ p {
     background-color: white;
 }
 
-.Navigation_Tools.ul {
-    position: absolute
-    
+.nav_tools{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  margin: 5 px;
+  padding: 50 px;
+  box-sizing: border-box;
 }
 
 aside {
@@ -41,3 +47,4 @@ aside {
     font-style: italic;
     color: #4d4d4d;
   }
+
