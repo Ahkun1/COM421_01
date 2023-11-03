@@ -20,6 +20,8 @@ p {
     text-align: match-parent;
     font-weight: 400;
     font-size: medium;
+    text-wrap: balance;
+    word-wrap: balance;
 
 }
 
@@ -30,19 +32,44 @@ p {
 }
 
 .nav_tools{
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  border: 2px solid black;
-  margin-left: 2 px;
+    overflow: hidden;
 }
 
+.nav_tools ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav_tools li{
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.spacing li{
+    margin-right:10px;
+    padding-right: 10px;
+}
+
+
 aside {
-    width: 30%;
+    width: 35%;
     padding-right: 0.5rem;
     margin-left: 0.5rem;
     float: right;
-    box-shadow: inset 5px 0 5px -5px #d7effc;
     font-style: italic;
     color: #4d4d4d;
-  }
+}
 
+#imp{
+    color: blue;
+    font-weight:bold;
+
+
+}
+
+#imp2{
+    color: black;
+    font-weight: bold;
+
+}
